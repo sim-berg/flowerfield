@@ -1,0 +1,60 @@
+*{
+
+  margin:0;
+  padding:0;
+}
+
+@media  screen and (max-width:750px) {
+
+.swiper-slide img{
+  position: relative;
+  object-fit: cover;
+  object-position: right;
+  
+}
+
+.swiper {
+  width: 100vw;
+  height: 100vh;
+ 
+}
+
+.text1{ 
+  position:absolute;
+ color: white;
+ top:30%;
+ left: 10%;
+ right:10%;
+ 
+
+}
+.text1 p {
+
+  padding-top: 60%;
+}
+
+
+.text2, .text3 ,.text5{
+  position:absolute;
+  color: white;
+  top:30%;
+  left: 10%;
+  right:10%;
+}
+
+.text3{
+  top:59%;
+}
+
+
+.text4{ 
+  position:absolute;
+ color: black;
+ top:80%;
+ left: 10%;
+ right:10%;
+
+}
+
+
+}
